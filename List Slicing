@@ -1,0 +1,17 @@
+#A spy has hidden a message inside a list. Extract every third letter to reveal the secret code.
+
+hidden_message = ['d', 'r', '^', 'o', ']', 'Z', 'g', 'X', '|', 's', '@', 'x', ' ', 'T', 'U', 'a', 'v', 'x', 'r', 'j', 'B', 'e', 'l', 'O', ' ', 'A', 'q', 'g', '-', 'B', 'o', 'y', 'D', 'o', 'A', 'S', 'd', 't', 'e']
+revealed_message = hidden_message[::3]
+print(revealed_message)
+
+#A DJ wants to reverse a song playlist stored in a python list. Write a function that returns the playlist in reverse order using list slicing.
+
+playlist = ["Busy Woman", "Die with a smile", "Messy", "luther", "DtMF"]
+reversed_playlist = playlist[::-1]
+print(reversed_playlist)
+
+#A chef is making a sandwich with ingredients stored in a list, but the restaurant customer is gluten free. Remove the first and last items from the list using list slicing.
+
+Ingredients = ["Bread", "Lettuce", "Tomato", "Cheese", "Ham", "Bread"]
+updated_Ingredients = Ingredients[1:-1]
+print(updated_Ingredients
